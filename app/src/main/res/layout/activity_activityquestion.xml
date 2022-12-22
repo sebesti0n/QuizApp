@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activityquestion"
-    android:fillViewport="true"
-
-    >
+    android:fillViewport="true">
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,13 +22,13 @@
             android:textSize="25sp"
             tools:text="what is capital of india?"
             />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/iv_question"
-            android:layout_marginTop="15dp"
-            android:contentDescription="Question Image"
-            />
+<!--      //  <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/iv_question"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--           // android:contentDescription="Question Image"-->
+<!--          //  />-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,16 +38,17 @@
             android:layout_marginTop="15dp"
 >
             <ProgressBar
+                android:id="@+id/PB"
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:indeterminate="false"
-                android:max="10"
+                android:max="3"
                 android:minHeight="50dp"
                 android:progress="0"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_ProgressBar"
                 android:gravity="center"
@@ -66,9 +64,9 @@
             android:id="@+id/tv_opt1"
             android:gravity="center"
             android:layout_margin="19dp"
-            android:background="@color/black"
+            android:background="@drawable/default_background"
             android:padding="15dp"
-            android:textColor="@color/white"
+            android:textColor="@color/grey"
             android:textSize="18sp"
             tools:text="Apple"
             />
@@ -78,9 +76,9 @@
             android:id="@+id/tv_opt2"
             android:gravity="center"
             android:layout_margin="19dp"
-            android:background="@color/black"
+            android:background="@drawable/default_background"
             android:padding="15dp"
-            android:textColor="@color/white"
+            android:textColor="@color/grey"
             android:textSize="18sp"
             tools:text="Apple"
             /><TextView
@@ -89,9 +87,9 @@
         android:id="@+id/tv_opt3"
         android:gravity="center"
         android:layout_margin="19dp"
-        android:background="@color/black"
+        android:background="@drawable/default_background"
         android:padding="15dp"
-        android:textColor="@color/white"
+        android:textColor="@color/grey"
         android:textSize="18sp"
         tools:text="Apple"
         />
@@ -101,9 +99,9 @@
         android:id="@+id/tv_opt4"
         android:gravity="center"
         android:layout_margin="19dp"
-        android:background="@color/black"
-        android:padding="15dp"
-        android:textColor="@color/white"
+            android:background="@drawable/default_background"
+            android:padding="15dp"
+            android:textColor="@color/grey"
         android:textSize="18sp"
         tools:text="Apple"
         />
@@ -112,7 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="19dp"
-            android:text="SUBMIT"
+            android:text="@string/submit"
             android:textSize="18sp"
             android:textStyle="bold"
             android:background="#FF9013FE"
