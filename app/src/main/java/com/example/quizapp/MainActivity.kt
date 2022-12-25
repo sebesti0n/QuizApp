@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
             }
             else {
                 val intent=Intent(this,Activityquestion::class.java)
+                intent.putExtra(questions.USER_NAME,player_name.text.toString())
                 startActivity(intent)
+
                 finish()
             }
         }

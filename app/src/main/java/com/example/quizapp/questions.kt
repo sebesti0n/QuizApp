@@ -1,7 +1,9 @@
 package com.example.quizapp
 
 object questions {
-
+    const val USER_NAME:String="user_name"
+    const val TOTAL_QUESTION: String="total soln"
+    const val CORRECT_ANSWER: String="correct_ans"
     fun getquestion():ArrayList<Question> {
     val Qlist=ArrayList<Question>()
 

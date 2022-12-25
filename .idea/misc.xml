@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable-v24/correct_option_bg.xml" value="0.135" />
+        <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable-v24/default_background.xml" value="0.135" />
         <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
+        <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable-v24/wrong_option_bg.xml" value="0.135" />
         <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable/default_background.xml" value="0.194" />
         <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
+        <entry key="..\:/leetcode/QuizApp/app/src/main/res/drawable/selected_option_bg.xml" value="0.135" />
         <entry key="..\:/leetcode/QuizApp/app/src/main/res/layout/activity_activityquestion.xml" value="0.24193548387096775" />
         <entry key="..\:/leetcode/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/leetcode/QuizApp/app/src/main/res/layout/activity_result.xml" value="0.25" />
       </map>
     </option>
   </component>
